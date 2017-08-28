@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/04_09_end/Websocket-Introduction-Course/src/main/main.iml" filepath="$PROJECT_DIR$/04_09_end/Websocket-Introduction-Course/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_09_start/Websocket-Introduction-Course/src/main/main1.iml" filepath="$PROJECT_DIR$/04_09_start/Websocket-Introduction-Course/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_11_solution/Websocket-Introduction-Course/src/main/main10.iml" filepath="$PROJECT_DIR$/04_11_solution/Websocket-Introduction-Course/src/main/main10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_02_start/Websocket-Introduction-Course/src/main/main11.iml" filepath="$PROJECT_DIR$/07_02_start/Websocket-Introduction-Course/src/main/main11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_02_end/Websocket-Introduction-Course/src/main/main12.iml" filepath="$PROJECT_DIR$/07_02_end/Websocket-Introduction-Course/src/main/main12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_06_solution/Websocket-Introduction-Course/src/main/main13.iml" filepath="$PROJECT_DIR$/05_06_solution/Websocket-Introduction-Course/src/main/main13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_06_start/Websocket-Introduction-Course/src/main/main14.iml" filepath="$PROJECT_DIR$/04_06_start/Websocket-Introduction-Course/src/main/main14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_03_start/Websocket-Introduction-Course/src/main/main15.iml" filepath="$PROJECT_DIR$/07_03_start/Websocket-Introduction-Course/src/main/main15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_04_end/Websocket-Introduction-Course/src/main/main16.iml" filepath="$PROJECT_DIR$/05_04_end/Websocket-Introduction-Course/src/main/main16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_02_end/Websocket-Introduction-Course/src/main/main17.iml" filepath="$PROJECT_DIR$/06_02_end/Websocket-Introduction-Course/src/main/main17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_01_start/Websocket-Introduction-Course/src/main/main18.iml" filepath="$PROJECT_DIR$/08_01_start/Websocket-Introduction-Course/src/main/main18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_02_start/Websocket-Introduction-Course/src/main/main19.iml" filepath="$PROJECT_DIR$/06_02_start/Websocket-Introduction-Course/src/main/main19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_04_end/Websocket-Introduction-Course/src/main/main2.iml" filepath="$PROJECT_DIR$/04_04_end/Websocket-Introduction-Course/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_03_end/Websocket-Introduction-Course/src/main/main3.iml" filepath="$PROJECT_DIR$/07_03_end/Websocket-Introduction-Course/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_04_start/Websocket-Introduction-Course/src/main/main4.iml" filepath="$PROJECT_DIR$/04_04_start/Websocket-Introduction-Course/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_06_end/Websocket-Introduction-Course/src/main/main5.iml" filepath="$PROJECT_DIR$/04_06_end/Websocket-Introduction-Course/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_05_start/Websocket-Introduction-Course/src/main/main6.iml" filepath="$PROJECT_DIR$/04_05_start/Websocket-Introduction-Course/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_05_end/Websocket-Introduction-Course/src/main/main7.iml" filepath="$PROJECT_DIR$/04_05_end/Websocket-Introduction-Course/src/main/main7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_03_start/Websocket-Introduction-Course/src/main/main8.iml" filepath="$PROJECT_DIR$/05_03_start/Websocket-Introduction-Course/src/main/main8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_03_end/Websocket-Introduction-Course/src/main/main9.iml" filepath="$PROJECT_DIR$/05_03_end/Websocket-Introduction-Course/src/main/main9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_01_start/Websocket-Introduction-Course/src/test/test.iml" filepath="$PROJECT_DIR$/08_01_start/Websocket-Introduction-Course/src/test/test.iml" />
+    </modules>
+  </component>
+</project>

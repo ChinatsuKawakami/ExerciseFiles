@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JMeterWebSocketSampler-1.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/08_01_start/Websocket-Introduction-Course/JMeter/JMeterWebSocketSampler-1.0.2.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
