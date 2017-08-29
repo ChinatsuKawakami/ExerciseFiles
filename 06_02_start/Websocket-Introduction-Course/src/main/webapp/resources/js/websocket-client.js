@@ -1,5 +1,6 @@
 /**
  * Created by readlearncode.com on 29/11/2016.
+ * Leaner Chinatsu Kawakami
  */
 var wsocket;
 var serviceLocation = "ws://localhost:8080/dukechat/chat";
@@ -46,16 +47,19 @@ $(document).ready(function () {
 function connectToChatServer() {
     // Create websocket connection to server endpoint URI
     // TODO: Connect to endpoint
+    wsocket = new WebSocket(constructURI(serviceLocation,encodeURI(room),user));
+
 
     // Set message and error handlers
-    // TODO: add callback for incomming messages
+    wsocket.onerror = onConnectionError;
+    wsocket.onmessage = onMessageReceived;
     // TODO: add callback for error events
 }
 
 function onMessageReceived(evt) {
     // Parse JSON String to JavaScript Object
     // TODO: deserialise the JSON string to JavaScript object;
-
+      var msg = JSON.parse)(evt.data);
     // Construct HTML snippet and print to screen
     var $messageLine = constructHTMLSnippet(msg.sender, msg.content, msg.received);
     $chatWindow.append($messageLine);
@@ -69,14 +73,13 @@ function onConnectionError(evt) {
 function sendMessage() {
     // Construct message to send to server
     var msg = '{"content":"' + $message.val() + '", "sender":"' + user + '", "received":"' + '"}';
-    // TODO: Send message
-
+    wsocket.send(msg);
     // Put back focus
     $message.val('').focus();
 }
 
 function leaveRoom() {
-    // TODO: close websocket
+    wsocket.close();
     $chatWindow.empty();
     $('.chat-wrapper').hide();
     $('.chat-signin').show();
