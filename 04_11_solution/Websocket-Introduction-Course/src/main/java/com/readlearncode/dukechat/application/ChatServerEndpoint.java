@@ -18,6 +18,7 @@ import static com.readlearncode.dukechat.utils.Messages.objectify;
 /**
  * @author Alex Theedom www.readlearncode.com
  * @version 1.0
+ * Learner Chinatsu Kawakami
  */
 public class ChatServerEndpoint extends Endpoint {
 

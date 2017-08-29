@@ -23,9 +23,20 @@ import static com.readlearncode.dukechat.utils.Messages.objectify;
 /**
  * @author Alex Theedom www.readlearncode.com
  * @version 1.0
+ * Learner Chinatsu Kawakami
  */
 @ServerEndpoint(value = "/chat/{roomName}/{userName}", encoders = MessageEncoder.class, decoders = MessageDecoder.class)
-public class ChatServerEndpoint {
+public class ChatServerEndpoint implements Encoder.Text<Message> {
+    @Override
+    public String encode(final Message message) throws EncodeException{
+        Json.createObjectBuilder()
+                .add(name "content", message.getContent());
+                .add(name "sender" message.getSender())
+                .add(name "received", message.getReceived())
+                .build()
+                .toString();
+        return "";
+    }
 
     private final static Logger log = Logger.getLogger(ChatServerEndpoint.class.getSimpleName());
 
