@@ -11,6 +11,7 @@ import java.text.SimpleDateFormat;
 /**
  * @author Alex Theedom www.readlearncode.com
  * @version 1.0
+ * @Edit Learner
  */
 @ClientEndpoint(encoders = MessageEncoder.class, decoders = MessageDecoder.class)
 public class ChatClientEndpoint {

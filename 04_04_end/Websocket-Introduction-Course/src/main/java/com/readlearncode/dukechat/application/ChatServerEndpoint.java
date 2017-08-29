@@ -18,6 +18,7 @@ import java.util.Map;
 /**
  * @author Alex Theedom www.readlearncode.com
  * @version 1.0
+ * @ Edit and learner : Chinatsu kawakami
  */
 @ServerEndpoint(value = "/chat/{roomName}/{userName}", encoders = MessageEncoder.class, decoders = MessageDecoder.class)
 public class ChatServerEndpoint {
