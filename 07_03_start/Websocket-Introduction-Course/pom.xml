@@ -2,6 +2,27 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <security-constraint>
+        <web-resouerce-collection>
+            <web-resource-name>Chat Endpoint</web-resource-name>
+            <url-pattan>/rooms/*</url-pattan>
+            <http-method>GET</http-method>
+        </web-resouerce-collection>
+
+        <auth-constraint>
+            <role-name>user-role</role-name>
+        </auth-constraint>
+    <user-data-constraint>
+        <transport-guarantee>CONFIDENTAL</transport-guarantee>
+    </user-data-constraint>
+    </security-constraint>
+    <login-config>
+        <auth-method>BASIC</auth-method>
+        <realm-name>file</realm-name>
+    </login-config>
+    <security-role>
+        <role-name>user-role</role-name>
+    </security-role>
 
     <groupId>com.readlearncode</groupId>
     <artifactId>dukechat</artifactId>

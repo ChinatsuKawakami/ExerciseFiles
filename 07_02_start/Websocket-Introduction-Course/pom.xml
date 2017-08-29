@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <security-constraint>
-        <web-resouerce-collegtion>
+        <web-resouerce-collection>
             <web-resource-name>Chat Endpoint</web-resource-name>
             <url-pattan>/rooms/*</url-pattan>
             <http-method>GET</http-method>
-        </web-resouerce-collegtion>
+        </web-resouerce-collection>
 
             <auth-constraint>
                 <role-name>user-role</role-name>
